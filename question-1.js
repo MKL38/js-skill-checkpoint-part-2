@@ -10,3 +10,7 @@ const techcoolPeople = [
 ];
 
 // เริ่มเขียนโค้ดตรงนี้
+let accuTechFirm = [...techupPeople,...techcoolPeople]; 
+
+let under20Employee = accuTechFirm.filter((person) => person.age < 20);
+console.log(under20Employee); 
